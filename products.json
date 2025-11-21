@@ -1,0 +1,35 @@
+[
+  {
+    "id": "tr-001",
+    "title": "Rush Classic 40mm",
+    "brand": "Time Rush",
+    "price_cents": 14900,
+    "currency": "USD",
+    "description": "Stainless steel 40mm; automatic movement; 50m water resistance.",
+    "images": ["../public/images/rush-classic-40.jpg"],
+    "inventory": 10,
+    "tags": ["automatic","classic","steel"]
+  },
+  {
+    "id": "tr-002",
+    "title": "Rush Sport 42mm",
+    "brand": "Time Rush",
+    "price_cents": 9900,
+    "currency": "USD",
+    "description": "Quartz sport watch; silicone strap; 100m water resistance.",
+    "images": ["../public/images/rush-sport-42.jpg"],
+    "inventory": 20,
+    "tags": ["sport","quartz"]
+  },
+  {
+    "id": "tr-003",
+    "title": "Rush Chrono 44mm",
+    "brand": "Time Rush",
+    "price_cents": 21900,
+    "currency": "USD",
+    "description": "Chronograph; sapphire crystal; leather strap.",
+    "images": ["../public/images/rush-chrono-44.jpg"],
+    "inventory": 6,
+    "tags": ["chronograph","leather"]
+  }
+]
