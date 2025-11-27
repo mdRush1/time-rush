@@ -4,98 +4,98 @@ const sampleProducts = [
     title: "G-SHOCK",
     desc: "Stainless steel case, sapphire crystal, automatic movement. A modern classic.",
     price: 29.99,
-    img: "assets/images/logo1.png"
+    img: "logo1.png"
   },
   {
     id: "tr-002",
     title: "CURREN BLACK",
     desc: "Black-dial masterpiece with leather strap and precision quartz movement.",
     price: 29.99,
-    img: "assets/images/logo2.png"
+    img: "logo2.png"
   },
   {
     id: "tr-003",
     title: "YAZOLE CLASSIC",
     desc: "Gold-plated bezel, Roman numerals, and luxurious finishing touches.",
     price: 29.99,
-    img: "assets/images/3.png"
+    img: "3.png"
   },
   {
     id: "tr-004",
     title: "NAVI CLASSIC",
     desc: "Gold-plated bezel, Roman numerals, and luxurious finishing touches.",
     price: 0,
-    img: "assets/images/4.png"
+    img: "4.png"
   },
   {
     id: "tr-005",
     title: "CURREN WHITE",
     desc: "Gold-plated bezel, Roman numerals, and luxurious finishing touches.",
     price: 0,
-    img: "assets/images/5.png"
+    img: "5.png"
   },
   {
     id: "tr-006",
     title: "CURREN BLACK",
     desc: "Ultralight titanium body built for endurance and refined performance.",
     price: 0,
-    img: "assets/images/6.png"
+    img: "6.png"
   },
   {
     id: "tr-007",
     title: "NAVI SILVER",
     desc: "Gold-plated bezel, Roman numerals, and luxurious finishing touches.",
     price: 0,
-    img: "assets/images/7.png"
+    img: "7.png"
   },
   {
     id: "tr-008",
     title: "YAZOLE BLACK",
     desc: "Gold-plated bezel, Roman numerals, and luxurious finishing touches.",
     price: 0,
-    img: "assets/images/8.png"
+    img: "8.png"
   },
   {
     id: "tr-009",
     title: "YAZOLE FULL BLACK",
     desc: "Gold-plated bezel, Roman numerals, and luxurious finishing touches.",
     price: 0,
-    img: "assets/images/9.png"
+    img: "9.png"
   },
   {
     id: "tr-0010",
     title: "YAZOLE BROWN",
     desc: "Gold-plated bezel, Roman numerals, and luxurious finishing touches.",
     price: 0,
-    img: "assets/images/10.png"
+    img: "10.png"
   },
   {
     id: "tr-011",
     title: "SEKMEI BLACK",
     desc: "Gold-plated bezel, Roman numerals, and luxurious finishing touches.",
     price: 0,
-    img: "assets/images/11.png"
+    img: "11.png"
   },
   {
     id: "tr-012",
     title: "SEKMEI GREEN",
     desc: "Gold-plated bezel, Roman numerals, and luxurious finishing touches.",
     price: 0,
-    img: "assets/images/12.png"
+    img: "12.png"
   },
   {
     id: "tr-013",
     title: "SEKMEI B",
     desc: "Gold-plated bezel, Roman numerals, and luxurious finishing touches.",
     price: 0,
-    img: "assets/images/13.png"
+    img: "13.png"
   },
   {
     id: "tr-014",
     title: "SEKMEI G",
     desc: "Gold-plated bezel, Roman numerals, and luxurious finishing touches.",
     price: 0,
-    img: "assets/images/14.png"
+    img: "14.png"
   }
 ];
 
