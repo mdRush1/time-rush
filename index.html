@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Time Rush — Luxury Watches</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="assets/images/logo.png" alt="Time Rush logo" class="logo"/>
+        <div class="brand-text">
+          <h1>Time Rush</h1>
+          <p class="tag">Luxury Watches</p>
+        </div>
+      </div>
+
+      <nav class="main-nav">
+        <a href="#collection">Collection</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <button id="cartBtn" class="btn cart">Cart (<span id="cartCount">0</span>)</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+
+    <!-- HERO -->
+    <section class="hero-section">
+      <div class="hero-content">  
+        <h1 class="hero-title">Discover TimeRush Elegance</h1>
+        <p class="hero-subtitle">Premium watches crafted for your lifestyle.</p>
+
+        <!-- FIXED BUTTON -->
+        <a href="#featured" class="btn-shop">Shop Collection</a>
+      </div>
+    </section>
+
+    <!-- FEATURED COLLECTION -->
+    <section id="featured" class="featured-section">
+
+      <div class="featured-header" onclick="toggleFeatured()">
+        <h3 class="featured-title-text">Featured Collection</h3>
+        <button id="toggleBtn" class="arrow-btn" onclick="event.stopPropagation(); toggleFeatured();">➤</button>
+      </div>
+
+      <div id="featuredProducts" class="featured-products-grid hidden"></div>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact container">
+      <h3>Contact</h3>
+      <p>Questions? Email us at <a href="mailto:timerush11@gmail.com">timerush11@gmail.com</a> or use the form below.</p>
+
+      <form id="contactForm" class="contact-form" action="mailto:timerush11@gmail.com" method="get" enctype="text/plain">
+        <input placeholder="Your name" name="name" required/>
+        <input placeholder="Your email" name="email" type="email" required/>
+        <textarea placeholder="Message" name="message" rows="4" required></textarea>
+        <button class="btn" type="submit">Send</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>©️ <span id="year"></span> Time Rush — All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- PRODUCT MODAL -->
+  <div id="productModal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <button id="closeModal" class="modal-close">×</button>
+
+      <img id="modalImg" src="assets/images/logo.png" alt="product image" />
+
+      <div class="modal-info">
+        <h4 id="modalTitle">Title</h4>
+        <p id="modalDesc">Description</p>
+        <p class="price" id="modalPrice">$0.00</p>
+        <button id="addToCart" class="btn primary">Add to cart</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/script.js"></script>
+
+</body>
+</html>
